@@ -104,6 +104,7 @@ public class Options
             if (key == null) key = "";
             
             result[key] = arg;
+            key = null;
         }
 
         return result;
